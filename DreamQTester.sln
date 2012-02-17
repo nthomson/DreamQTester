@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamQTester", "DreamQTester\DreamQTester.csproj", "{5BE23C97-FE85-4543-A042-69B255C33C2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamQEngine", "DreamQEngine\DreamQEngine.csproj", "{46D5A1F3-94B0-46E3-A212-FDCD041C7273}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{5BE23C97-FE85-4543-A042-69B255C33C2C}.Debug|x86.Build.0 = Debug|x86
 		{5BE23C97-FE85-4543-A042-69B255C33C2C}.Release|x86.ActiveCfg = Release|x86
 		{5BE23C97-FE85-4543-A042-69B255C33C2C}.Release|x86.Build.0 = Release|x86
+		{46D5A1F3-94B0-46E3-A212-FDCD041C7273}.Debug|x86.ActiveCfg = Debug|x86
+		{46D5A1F3-94B0-46E3-A212-FDCD041C7273}.Debug|x86.Build.0 = Debug|x86
+		{46D5A1F3-94B0-46E3-A212-FDCD041C7273}.Release|x86.ActiveCfg = Release|x86
+		{46D5A1F3-94B0-46E3-A212-FDCD041C7273}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

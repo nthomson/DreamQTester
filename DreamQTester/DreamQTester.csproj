@@ -46,6 +46,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DreamQEngine\DreamQEngine.csproj">
+      <Project>{46D5A1F3-94B0-46E3-A212-FDCD041C7273}</Project>
+      <Name>DreamQEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\theboywholived.db">
+      <CustomToolNamespace>DreamQEngineTester</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
