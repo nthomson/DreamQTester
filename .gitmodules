@@ -1,0 +1,3 @@
+[submodule "DreamQEngine"]
+	path = DreamQEngine
+	url = git@github.com:PeepQ/DreamQEngine.git
